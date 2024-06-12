@@ -1,0 +1,25 @@
+{
+  "name": "ello-fullstack-app",
+  "version": "1.0.0",
+  "description": "A backend and frontend app for the Ello code challenge",
+  "main": "index.js",
+  "scripts": {
+    "setup:backend": "cd backend && npm install",
+    "setup:frontend": "cd frontend && npm install",
+    "setup:all": "npm run setup:backend && npm run setup:frontend",
+    "start:backend": "cd backend && npm run start &",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:all": "npm run start:backend && npm run start:frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kengeene/ello_assignment-full-app.git"
+  },
+  "author": "Eugene Kuria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kengeene/ello_assignment-full-app/issues"
+  },
+  "homepage": "https://github.com/kengeene/ello_assignment-full-app#readme"
+}

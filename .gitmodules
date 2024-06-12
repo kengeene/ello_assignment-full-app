@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/kengeene/ello_assignment-react-app
+[submodule "backend"]
+	path = backend
+	url = https://github.com/kengeene/ello_assignment-node-app-.git
